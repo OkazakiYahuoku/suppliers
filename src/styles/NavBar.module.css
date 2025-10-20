@@ -1,0 +1,41 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(18px);
+  background-color: rgba(245, 247, 251, 0.85);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.inner {
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  max-width: 75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
+
+.navItem {
+  padding: 0.4rem 0.65rem;
+  border-radius: 9999px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  color: rgba(30, 41, 59, 0.85);
+}
+
+.navItem:hover,
+.navItem:focus-visible {
+  background-color: rgba(59, 130, 246, 0.12);
+  color: #1d4ed8;
+}

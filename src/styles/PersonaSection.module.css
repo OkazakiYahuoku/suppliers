@@ -1,0 +1,64 @@
+.wrapper {
+  padding: 4rem 1.5rem 3rem;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 72rem;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  max-width: 36rem;
+}
+
+.label {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(59, 130, 246, 0.8);
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.description {
+  margin: 0;
+  color: rgba(71, 85, 105, 0.95);
+}
+
+.grid {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.card {
+  padding: 1.75rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(226, 232, 240, 1);
+  background: linear-gradient(180deg, rgba(248, 250, 252, 0.92), rgba(255, 255, 255, 0.92));
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+}
+
+.cardTitle {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.list {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  color: rgba(51, 65, 85, 0.95);
+}
